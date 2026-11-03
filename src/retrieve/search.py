@@ -1,4 +1,4 @@
-"""Phase 4: retrieve top-k chunks from Chroma using the ingest embedding model."""
+"""Retrieve top-k chunks: Chroma locally, lexical on Vercel."""
 
 from __future__ import annotations
 
@@ -9,14 +9,12 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from src.config import load_settings, resolve_path
-from src.ingest.embed import embed_texts, get_configured_model_name
-from src.ingest.upsert import get_chroma_collection
+from src.runtime import can_persist, retrieval_backend
 
 IST = ZoneInfo("Asia/Kolkata")
 
 
 def _distance_to_score(distance: float | None) -> float:
-    """Chroma cosine space returns distance; convert to a similarity-like score."""
     if distance is None:
         return 0.0
     return max(0.0, 1.0 - float(distance))
@@ -30,7 +28,17 @@ def retrieve(
     persist: bool = True,
 ) -> dict[str, Any]:
     cfg = settings or load_settings()
+    backend = retrieval_backend(cfg)
+    if backend == "lexical":
+        from src.retrieve.lexical import retrieve_lexical
+
+        payload = retrieve_lexical(query, settings=cfg, top_k=top_k, persist=False)
+        return payload
+
     k = int(top_k or cfg.get("retrieval", {}).get("top_k", 4))
+    from src.ingest.embed import embed_texts, get_configured_model_name
+    from src.ingest.upsert import get_chroma_collection
+
     model_name = get_configured_model_name(cfg)
     collection_name = cfg.get("vector_db", {}).get("collection", "mf_faq")
 
@@ -77,7 +85,7 @@ def retrieve(
         "created_at": datetime.now(IST).isoformat(timespec="seconds"),
     }
 
-    if persist:
+    if persist and can_persist():
         out_dir = resolve_path(cfg.get("paths", {}).get("retrieval_dir", "data/retrieval"))
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / f"{query_id}.json"

@@ -64,3 +64,24 @@ API:
 ```bash
 python scripts/run_guardrail_tests.py
 ```
+
+## Deploy on Vercel (Git)
+
+Vercel cannot run local Chroma or PyTorch. On Vercel this app uses **lexical retrieval** over committed `data/chunks/*.jsonl` (same facts, no embedding model).
+
+1. Push `main` to GitHub (`https://github.com/Shri3727/Groww.git`).
+2. Open [vercel.com](https://vercel.com) → **Add New → Project** → import **`Shri3727/Groww`**.
+3. Framework preset: **Other**.
+4. Install command: `pip install -r requirements-vercel.txt`
+5. Output / build command: leave blank.
+6. Deploy.
+7. Open the `*.vercel.app` URL.
+
+Do **not** add `sentence-transformers` or `chromadb` to the Vercel install — they exceed serverless size limits.
+
+Local full RAG (Chroma + MiniLM) is unchanged:
+
+```bash
+pip install -r requirements.txt
+./run.sh
+```

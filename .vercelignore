@@ -1,0 +1,17 @@
+.venv
+.venv/**
+.git
+.env
+chroma
+chroma/**
+data/raw
+data/embeddings
+data/vector_meta
+data/retrieval
+data/generation
+__pycache__
+*.pyc
+.pytest_cache
+Docs
+tests
+scripts

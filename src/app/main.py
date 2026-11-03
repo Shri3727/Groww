@@ -17,12 +17,24 @@ if str(REPO_ROOT) not in sys.path:
 from src.app.orchestrator import DISCLAIMER, EXAMPLE_QUESTIONS, ask
 from src.config import load_settings
 from src.retrieve.search import retrieve
+from src.runtime import is_vercel, retrieval_backend
 
 app = FastAPI(
     title="Groww MF FAQ Assistant",
     description="Facts-only RAG prototype over selected HDFC Mutual Fund pages on Groww.",
     version="0.1.0",
 )
+
+
+@app.on_event("startup")
+def _startup_warmup():
+    if is_vercel() or retrieval_backend() == "lexical":
+        print("[app] lexical retrieval — skip embedding warmup")
+        return
+    from src.ingest.embed import warmup
+
+    name = warmup()
+    print(f"[app] embedding warmup complete: {name}")
 
 
 class AskRequest(BaseModel):
@@ -37,11 +49,18 @@ class RetrieveRequest(BaseModel):
 @app.get("/api/health")
 def health():
     settings = load_settings()
+    backend = retrieval_backend(settings)
     return {
         "ok": True,
         "sources": len(settings.get("sources", [])),
+        "backend": backend,
+        "vercel": is_vercel(),
         "collection": settings.get("vector_db", {}).get("collection"),
-        "embedding_model": settings.get("embedding", {}).get("model"),
+        "embedding_model": (
+            "lexical-idf"
+            if backend == "lexical"
+            else settings.get("embedding", {}).get("model")
+        ),
     }
 
 
@@ -164,6 +183,11 @@ def index():
       font-weight: 600;
       cursor: pointer;
     }}
+    button.ask:disabled {{
+      opacity: 0.6;
+      cursor: wait;
+    }}
+    .loading {{ color: var(--muted); font-style: italic; }}
     .panel {{
       background: var(--card);
       border: 1px solid var(--line);
@@ -226,21 +250,19 @@ def index():
     const hitsEl = document.getElementById('hits');
     const errorEl = document.getElementById('error');
 
-    document.querySelectorAll('.example').forEach(btn => {{
-      btn.addEventListener('click', () => {{
-        input.value = btn.dataset.q;
-        form.requestSubmit();
-      }});
-    }});
+    const askBtn = document.querySelector('button.ask');
+    let inflight = false;
 
-    form.addEventListener('submit', async (e) => {{
-      e.preventDefault();
+    async function askQuestion(question) {{
+      if (inflight) return;
+      inflight = true;
+      askBtn.disabled = true;
       errorEl.textContent = '';
-      const question = input.value.trim();
-      if (!question) return;
-      answerEl.textContent = 'Looking up facts...';
       answerPanel.hidden = false;
       hitsPanel.hidden = true;
+      answerEl.className = 'answer loading';
+      answerEl.textContent = 'Looking up facts (first question can take ~20 seconds)...';
+      metaEl.innerHTML = '';
       try {{
         const res = await fetch('/api/ask', {{
           method: 'POST',
@@ -248,11 +270,16 @@ def index():
           body: JSON.stringify({{ question }})
         }});
         const data = await res.json();
-        if (!res.ok) throw new Error(data.detail || 'Request failed');
-        answerEl.textContent = data.answer || '';
+        if (!res.ok) {{
+          const detail = typeof data.detail === 'string' ? data.detail : JSON.stringify(data.detail);
+          throw new Error(detail || 'Request failed');
+        }}
+        answerEl.className = 'answer';
+        answerEl.textContent = data.answer || '(empty answer)';
         const parts = [];
         if (data.citation_url) parts.push('Source: <a href="' + data.citation_url + '" target="_blank" rel="noopener">' + data.citation_url + '</a>');
         if (data.last_updated_from_sources) parts.push('Last updated from sources: ' + data.last_updated_from_sources);
+        if (data.refused) parts.push('Refused: ' + (data.reason || 'policy'));
         metaEl.innerHTML = parts.join(' · ');
         hitsEl.innerHTML = (data.hits || []).map(h => `
           <div class="hit">
@@ -260,10 +287,32 @@ def index():
             <div>${{(h.text || '').replace(/</g,'&lt;').slice(0,500)}}</div>
             <div><a href="${{h.source_url}}" target="_blank" rel="noopener">${{h.source_url}}</a></div>
           </div>`).join('');
-        hitsPanel.hidden = false;
+        hitsPanel.hidden = !(data.hits && data.hits.length);
       }} catch (err) {{
+        answerEl.className = 'answer';
+        answerEl.textContent = '';
         errorEl.textContent = err.message || String(err);
+      }} finally {{
+        inflight = false;
+        askBtn.disabled = false;
       }}
+    }}
+
+    document.querySelectorAll('.example').forEach(btn => {{
+      btn.addEventListener('click', () => {{
+        input.value = btn.dataset.q;
+        askQuestion(btn.dataset.q);
+      }});
+    }});
+
+    form.addEventListener('submit', (e) => {{
+      e.preventDefault();
+      const question = input.value.trim();
+      if (!question) {{
+        errorEl.textContent = 'Type a question or click an example.';
+        return;
+      }}
+      askQuestion(question);
     }});
   </script>
 </body>

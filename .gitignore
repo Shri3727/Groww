@@ -10,6 +10,8 @@ data/raw/*
 !data/raw/.gitkeep
 data/chunks/*
 !data/chunks/.gitkeep
+!data/chunks/*.jsonl
+!data/chunks/_strategy.md
 data/embeddings/*
 !data/embeddings/.gitkeep
 data/vector_meta/*

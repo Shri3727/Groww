@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 from src.config import get_repo_root, load_settings, resolve_path
 from src.guardrails.checks import check, closest_allowlisted_url, educational_url
 from src.retrieve.search import retrieve
+from src.runtime import can_persist, retrieval_backend
 
 IST = ZoneInfo("Asia/Kolkata")
 
@@ -134,6 +135,8 @@ def _gap_message(query: str, url: str) -> str:
 
 
 def _persist_generation(payload: dict[str, Any], cfg: dict[str, Any]) -> dict[str, Any]:
+    if not can_persist():
+        return payload
     out_dir = resolve_path(cfg.get("paths", {}).get("generation_dir", "data/generation"))
     out_dir.mkdir(parents=True, exist_ok=True)
     query_id = payload.get("query_id") or uuid.uuid4().hex
@@ -176,7 +179,7 @@ def ask(question: str, *, settings: dict[str, Any] | None = None) -> dict[str, A
 
     q = (question or "").strip()
     try:
-        retrieval = retrieve(q, settings=cfg, persist=True)
+        retrieval = retrieve(q, settings=cfg, persist=can_persist())
     except Exception as exc:  # noqa: BLE001
         url = educational_url(cfg)
         payload = {
@@ -196,7 +199,8 @@ def ask(question: str, *, settings: dict[str, Any] | None = None) -> dict[str, A
         return _persist_generation(payload, cfg)
 
     hits = retrieval.get("hits") or []
-    min_score = float(cfg.get("retrieval", {}).get("min_score", 0.45))
+    score_key = "lexical_min_score" if retrieval_backend(cfg) == "lexical" else "min_score"
+    min_score = float(cfg.get("retrieval", {}).get(score_key, 0.45 if score_key == "min_score" else 0.12))
     query_id = retrieval.get("query_id") or query_id
 
     if not _is_grounded(hits, min_score):
