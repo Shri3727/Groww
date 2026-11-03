@@ -1,0 +1,3 @@
+Facts-only. No investment advice.
+
+This assistant answers factual questions about selected HDFC Mutual Fund schemes using official Groww public pages only. It does not recommend buying or selling, does not compute or compare returns, and does not accept PAN, Aadhaar, account numbers, OTPs, emails, or phone numbers.

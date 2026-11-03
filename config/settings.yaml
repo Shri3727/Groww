@@ -1,0 +1,56 @@
+sources:
+  - id: amc_hdfc
+    name: HDFC Mutual Fund (AMC overview)
+    url: https://groww.in/mutual-funds/amc/hdfc-mutual-funds
+    page_type: amc
+  - id: hdfc_large_cap
+    name: HDFC Large Cap Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+    page_type: scheme
+  - id: hdfc_flexi_cap
+    name: HDFC Flexi Cap Direct Plan Growth
+    url: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+    page_type: scheme
+  - id: hdfc_elss
+    name: HDFC ELSS Tax Saver Fund Direct Plan Growth
+    url: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+    page_type: scheme
+  - id: hdfc_mid_cap
+    name: HDFC Mid Cap Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+    page_type: scheme
+
+paths:
+  raw_dir: data/raw
+  chunks_dir: data/chunks
+  embeddings_dir: data/embeddings
+  vector_meta_dir: data/vector_meta
+  retrieval_dir: data/retrieval
+  generation_dir: data/generation
+
+scraping:
+  timeout_seconds: 30
+  retry_count: 1
+  delay_seconds: 1.0
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+chunking:
+  strategy: heading_aware
+  size: 512
+  overlap: 64
+
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+
+vector_db:
+  type: chroma
+  persist_dir: chroma
+  collection: mf_faq
+
+retrieval:
+  top_k: 4
+  min_score: 0.45
+
+llm:
+  provider: groq
+  model_env: LLM_MODEL
