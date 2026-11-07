@@ -1,0 +1,55 @@
+{
+  "query_id": "20261103T061237_316dae4b",
+  "query": "What is the exit load of HDFC Mid Cap Fund Direct Growth?",
+  "top_k": 4,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "collection": "mf_faq",
+  "hits": [
+    {
+      "chunk_id": "hdfc_mid_cap_0023",
+      "text": "Exit load of 1% if redeemed within 1 year.",
+      "score": 0.8766,
+      "distance": 0.12338757514953613,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Exit load of 1% if redeemed within 1 year.",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0026",
+      "text": "Exit load of 1% if redeemed within 1 year.",
+      "score": 0.8766,
+      "distance": 0.12338757514953613,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Exit load of 1% if redeemed within 1 year.",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0020",
+      "text": "Exit load\nA fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.",
+      "score": 0.8212,
+      "distance": 0.17883074283599854,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Exit load",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0017",
+      "text": "Exit load\nA fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.",
+      "score": 0.8114,
+      "distance": 0.18855500221252441,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Exit load",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    }
+  ],
+  "citation_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+  "created_at": "2026-11-03T06:12:37+05:30"
+}

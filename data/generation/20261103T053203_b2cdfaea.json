@@ -1,0 +1,56 @@
+{
+  "query_id": "20261103T053203_b2cdfaea",
+  "query": "Expense ratio of HDFC Large Cap Direct Growth?",
+  "answer": "Expense ratio 1.02% 4 ₹5,000 Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth. Last updated from sources: 2026-11-01.",
+  "citation_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "last_updated_from_sources": "2026-11-01",
+  "refused": false,
+  "reason": null,
+  "retrieval_artifact": "/Users/shridharvengurlekar/Documents/NextLeap/data/retrieval/20261103T053203_b2cdfaea.json",
+  "hits": [
+    {
+      "chunk_id": "hdfc_large_cap_0015",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "score": 0.7823,
+      "distance": 0.21766263246536255,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0003",
+      "text": "Expense ratio\n1.02%\nRating\n4\nReturn calculator\nMonthly SIP\nOne time\nMonthly investment\n₹5,000\nOver the past\nTotal investment\nWould've become\nHistoric returns\nReturns\n1 year\n₹60,000\n₹57,719\n-3.80\n%\n3 years\n₹1,80,000\n₹1,78,952\n-0.58\n%\n5 years\n₹3,00,000\n₹3,55,893\n+\n18.63\n%\n10 years\n₹6,00,000\n₹10,79,208\n+\n79.87\n%",
+      "score": 0.7414,
+      "distance": 0.2585725784301758,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0018",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "score": 0.7318,
+      "distance": 0.26823890209198,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0012",
+      "text": "Understand terms\nAnnualised returns\nAverage of the yearly returns of a mutual fund over a given period.\nAbsolute returns\nThe total return of a mutual fund over a given period.",
+      "score": 0.7283,
+      "distance": 0.2717037796974182,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Understand terms",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    }
+  ]
+}

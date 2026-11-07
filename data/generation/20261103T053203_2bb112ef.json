@@ -1,0 +1,56 @@
+{
+  "query_id": "20261103T053203_2bb112ef",
+  "query": "ELSS lock-in period?",
+  "answer": "I could not find that fact in the indexed Groww pages for the selected HDFC schemes. Please check the official page: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "citation_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "last_updated_from_sources": "2026-11-01",
+  "refused": false,
+  "reason": "ungrounded",
+  "retrieval_artifact": "/Users/shridharvengurlekar/Documents/NextLeap/data/retrieval/20261103T053203_2bb112ef.json",
+  "hits": [
+    {
+      "chunk_id": "hdfc_elss_0018",
+      "text": "Exit load\nA fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.",
+      "score": 0.2725,
+      "distance": 0.7275497317314148,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Exit load",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_elss_0023",
+      "text": "Stamp duty on investment:\n0.005% (from July 1st, 2020)\nfrom July 1st 2020",
+      "score": 0.2588,
+      "distance": 0.7412470579147339,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Stamp duty on investment:",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0024",
+      "text": "Exit load of 1% if redeemed within 1 year",
+      "score": 0.2524,
+      "distance": 0.7475517392158508,
+      "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:12+05:30",
+      "page_id": "hdfc_flexi_cap",
+      "section": "Exit load of 1% if redeemed within 1 year",
+      "name": "HDFC Flexi Cap Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0027",
+      "text": "Exit load of 1% if redeemed within 1 year",
+      "score": 0.2524,
+      "distance": 0.7475517392158508,
+      "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:12+05:30",
+      "page_id": "hdfc_flexi_cap",
+      "section": "Exit load of 1% if redeemed within 1 year",
+      "name": "HDFC Flexi Cap Direct Plan Growth"
+    }
+  ]
+}

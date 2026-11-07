@@ -1,0 +1,10 @@
+{
+  "query_id": "20261103T053204_36342a35",
+  "query": "My PAN is [REDACTED_PAN], what’s my tax?",
+  "answer": "I cannot accept or store personal details such as PAN, Aadhaar, account numbers, OTPs, emails, or phone numbers. Ask a scheme fact (expense ratio, SIP, exit load) instead. Source: https://groww.in/mutual-funds/amc/hdfc-mutual-funds.",
+  "citation_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "last_updated_from_sources": null,
+  "refused": true,
+  "reason": "pii",
+  "hits": []
+}

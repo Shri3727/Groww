@@ -1,0 +1,10 @@
+{
+  "query_id": "20261103T053145_fb18a793",
+  "query": "What is the expense ratio of Parag Parikh Flexi Cap?",
+  "answer": "That fund is not in this prototype corpus (HDFC AMC + four HDFC schemes on Groww). I can only answer facts from the indexed official pages. Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth.",
+  "citation_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+  "last_updated_from_sources": null,
+  "refused": true,
+  "reason": "out_of_scope",
+  "hits": []
+}

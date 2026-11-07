@@ -1,0 +1,55 @@
+{
+  "query_id": "20261103T053204_9d55621a",
+  "query": "How to download capital-gains statement?",
+  "top_k": 4,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "collection": "mf_faq",
+  "hits": [
+    {
+      "chunk_id": "hdfc_elss_0017",
+      "text": "Tax\nA percentage of your capital gains payable to the government upon exiting your mutual fund investments.     Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.",
+      "score": 0.3753,
+      "distance": 0.6246817111968994,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Tax",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0016",
+      "text": "Tax\nA percentage of your capital gains payable to the government upon exiting your mutual fund investments.     Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.",
+      "score": 0.3575,
+      "distance": 0.6424881815910339,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Tax",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_elss_0009",
+      "text": "%\nCummins India Ltd\nIndustrials\nEquity\n0.68%\nWestlife Development Ltd\nConsumer Discretionary\nEquity\n0.59%\nBirla Corporation Ltd\nMaterials\nEquity\n0.56%\nBharat Electronics Ltd\nIndustrials\nEquity\n0.56%\nLife Insurance Corporation of India\nFinancial\nEquity\n0.53%\nRepo\nUnspecified\nRepo\n0.47%\nThe Ramco Cements Ltd\nMaterials\nEquity\n0.45%\nCyient Ltd\nTechnology\nEquity\n0.44%\nSuven Pharmaceuticals Ltd\nHealthcare\nEquity\n0.42%\nGOVERNMENT OF INDIA 31719 GOI 20JU27 7.38 FV RS 100\nEntities\nGOI Securities\n0.34%\nTeamLease Serv",
+      "score": 0.3556,
+      "distance": 0.6444104909896851,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Holdings (",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_elss_0004",
+      "text": "Holdings (\n64\n)\nName\nSector\nInstruments\nAssets\nICICI Bank Ltd\nFinancial\nEquity\n9.06%\nHDFC Bank Ltd\nFinancial\nEquity\n7.87%\nAxis Bank Ltd\nFinancial\nEquity\n6.56%\nKotak Mahindra Bank Ltd\nFinancial\nEquity\n4.88%\nState Bank of India\nFinancial\nEquity\n4.49%\nBharti Airtel Ltd\nTechnology\nEquity\n4.45%\nMaruti Suzuki India Ltd\nConsumer Discretionary\nEquity\n4.40%\nSBI Life Insurance Company Ltd\nFinancial\nEquity\n3.21%\nHCL Technologies Ltd\nTechnology\nEquity\n2.94%\nHyundai Motor India Ltd.\nConsumer Discretionary\nEquity\n2.72%\nR",
+      "score": 0.3553,
+      "distance": 0.6447349190711975,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Holdings (",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    }
+  ],
+  "citation_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "created_at": "2026-11-03T05:32:04+05:30"
+}

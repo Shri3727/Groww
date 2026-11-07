@@ -1,0 +1,56 @@
+{
+  "query_id": "20261103T061238_6e555ee4",
+  "query": "What is the lock-in / tax-saver detail for HDFC ELSS Tax Saver Fund?",
+  "answer": "Jun 2023 View details Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth. Last updated from sources: 2026-11-01.",
+  "citation_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "last_updated_from_sources": "2026-11-01",
+  "refused": false,
+  "reason": null,
+  "retrieval_artifact": "/Users/shridharvengurlekar/Documents/NextLeap/data/retrieval/20261103T061238_6e555ee4.json",
+  "hits": [
+    {
+      "chunk_id": "hdfc_elss_0019",
+      "text": "Stamp duty\nA form of tax payable for the purchase or sale of an asset or security.",
+      "score": 0.7312,
+      "distance": 0.26876091957092285,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Stamp duty",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_elss_0016",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "score": 0.7065,
+      "distance": 0.29349905252456665,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Expense ratio",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_elss_0017",
+      "text": "Tax\nA percentage of your capital gains payable to the government upon exiting your mutual fund investments.     Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.",
+      "score": 0.7062,
+      "distance": 0.29377126693725586,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Tax",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    },
+    {
+      "chunk_id": "hdfc_elss_0026",
+      "text": "l\nJun 2023\n- Present\nView details\nEducation\nMr. Dhruv has done B.Com, CA and CFA\nExperience\nPrior to joining HDFC MF,he has worked with Motilal Oswal Financial Services Ltd., Goldman Sachs, CRISIL Global Research & Analytics and Deloitte Haskins & Sells\nAlso manages these schemes\nHDFC Flexi Cap Direct Plan Growth\nHDFC Value Fund Direct Plan Growth\nHDFC Ultra Short to Short Term Fund Direct Growth\nHDFC Focused Fund Direct Growth\nHDFC Floating Interest Rates Fund Direct Plan Growth\nHDFC Balanced Advantage Fun",
+      "score": 0.6942,
+      "distance": 0.3057887554168701,
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scraped_at": "2026-11-01T16:48:13+05:30",
+      "page_id": "hdfc_elss",
+      "section": "Fund management",
+      "name": "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    }
+  ]
+}
