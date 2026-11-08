@@ -3,6 +3,15 @@
 from __future__ import annotations
 
 import os
+from datetime import timedelta, timezone
+from zoneinfo import ZoneInfo
+
+
+def ist_tz():
+    try:
+        return ZoneInfo("Asia/Kolkata")
+    except Exception:
+        return timezone(timedelta(hours=5, minutes=30))
 
 
 def is_vercel() -> bool:

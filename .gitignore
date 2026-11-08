@@ -22,3 +22,5 @@ data/generation/*
 !data/generation/.gitkeep
 *.egg-info/
 .streamlit/
+
+.vercel

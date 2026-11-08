@@ -7,14 +7,12 @@ import re
 import uuid
 from datetime import datetime
 from typing import Any
-from zoneinfo import ZoneInfo
-
 from src.config import get_repo_root, load_settings, resolve_path
 from src.guardrails.checks import check, closest_allowlisted_url, educational_url
 from src.retrieve.search import retrieve
-from src.runtime import can_persist, retrieval_backend
+from src.runtime import can_persist, ist_tz, retrieval_backend
 
-IST = ZoneInfo("Asia/Kolkata")
+IST = ist_tz()
 
 EXAMPLE_QUESTIONS = [
     "What is the expense ratio of HDFC Large Cap Fund Direct Growth?",

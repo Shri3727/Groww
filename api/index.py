@@ -1,4 +1,4 @@
-"""Vercel Python entrypoint — exports the FastAPI app."""
+"""Vercel Python entrypoint — FastAPI `app` from src.app.main."""
 
 from __future__ import annotations
 
@@ -9,6 +9,6 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from src.app.main import app  # noqa: E402
+from src.app.main import app
 
 __all__ = ["app"]

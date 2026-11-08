@@ -6,12 +6,10 @@ import json
 import uuid
 from datetime import datetime
 from typing import Any
-from zoneinfo import ZoneInfo
-
 from src.config import load_settings, resolve_path
-from src.runtime import can_persist, retrieval_backend
+from src.runtime import can_persist, ist_tz, retrieval_backend
 
-IST = ZoneInfo("Asia/Kolkata")
+IST = ist_tz()
 
 
 def _distance_to_score(distance: float | None) -> float:

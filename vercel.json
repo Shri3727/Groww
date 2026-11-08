@@ -1,12 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
   "installCommand": "pip install -r requirements-vercel.txt",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ],
   "functions": {
-    "api/index.py": {
-      "maxDuration": 30
+    "index.py": {
+      "maxDuration": 30,
+      "includeFiles": "{src/**,config/**,data/chunks/**,deliverables/**}"
     }
   }
 }

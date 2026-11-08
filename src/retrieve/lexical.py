@@ -8,12 +8,11 @@ import uuid
 from datetime import datetime
 from functools import lru_cache
 from typing import Any
-from zoneinfo import ZoneInfo
-
 from src.config import load_settings
 from src.ingest.chunk import load_all_chunks
+from src.runtime import ist_tz
 
-IST = ZoneInfo("Asia/Kolkata")
+IST = ist_tz()
 TOKEN_RE = re.compile(r"[a-z0-9]+")
 STOP = {
     "what",

@@ -1,5 +1,7 @@
 .venv
 .venv/**
+.venv-win
+.venv-win/**
 .git
 .env
 chroma
