@@ -76,6 +76,11 @@ class GuardResult:
     redacted_query: Optional[str] = None
 
 
+SEBI_INVESTOR_EDU = "https://investor.sebi.gov.in/"
+HDFC_FACTSHEETS = "https://www.hdfcfund.com/mutual-funds/factsheets"
+GROWW_HELP = "https://groww.in/help"
+
+
 def educational_url(settings: dict[str, Any] | None = None) -> str:
     cfg = settings or load_settings()
     for source in cfg.get("sources") or []:
@@ -200,9 +205,9 @@ def check(question: str, *, settings: dict[str, Any] | None = None) -> GuardResu
             reason="advice",
             message=(
                 "I cannot recommend buying, selling, or allocating a portfolio. "
-                "This assistant shares facts only. Review official scheme details on Groww."
+                "This assistant shares facts only. For investor education see SEBI."
             ),
-            educational_url=edu,
+            educational_url=SEBI_INVESTOR_EDU,
             redacted_query=redacted,
         )
 
@@ -212,9 +217,9 @@ def check(question: str, *, settings: dict[str, Any] | None = None) -> GuardResu
             reason="returns",
             message=(
                 "I do not compute or compare fund returns. "
-                "Please check the official scheme page on Groww for published performance figures."
+                "Please use the official HDFC Mutual Fund factsheet for published figures."
             ),
-            educational_url=closest_allowlisted_url(q, cfg),
+            educational_url=HDFC_FACTSHEETS,
             redacted_query=redacted,
         )
 

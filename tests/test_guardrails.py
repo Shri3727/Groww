@@ -27,7 +27,7 @@ class GuardrailUnitTests(unittest.TestCase):
         result = check("Should I buy HDFC Mid Cap?")
         self.assertEqual(result.action, "refuse")
         self.assertEqual(result.reason, "advice")
-        self.assertEqual(result.educational_url, AMC)
+        self.assertEqual(result.educational_url, "https://investor.sebi.gov.in/")
 
     def test_t8_returns_refuse(self):
         result = check("Which fund has better returns?")

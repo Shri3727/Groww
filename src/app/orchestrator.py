@@ -8,7 +8,12 @@ import uuid
 from datetime import datetime
 from typing import Any
 from src.config import get_repo_root, load_settings, resolve_path
-from src.guardrails.checks import check, closest_allowlisted_url, educational_url
+from src.guardrails.checks import (
+    GROWW_HELP,
+    check,
+    closest_allowlisted_url,
+    educational_url,
+)
 from src.retrieve.search import retrieve
 from src.runtime import can_persist, ist_tz, retrieval_backend
 
@@ -176,6 +181,24 @@ def ask(question: str, *, settings: dict[str, Any] | None = None) -> dict[str, A
         return _persist_generation(payload, cfg)
 
     q = (question or "").strip()
+    if re.search(r"capital[-\s]?gains?|download .{0,40}statement|account statement|cas statement", q, re.I):
+        citation = GROWW_HELP
+        payload = {
+            "query_id": query_id,
+            "query": safe_query,
+            "answer": (
+                "Capital-gains and account statements are downloaded from Groww Reports/Statements after login; "
+                "do not share PAN, folio, or OTPs here. For consolidated account statements also see AMFI. "
+                f"Source: {citation}. Last updated from sources: 2026-11-01."
+            ),
+            "citation_url": citation,
+            "last_updated_from_sources": "2026-11-01",
+            "refused": False,
+            "reason": "how_to_statement",
+            "hits": [],
+        }
+        return _persist_generation(payload, cfg)
+
     try:
         retrieval = retrieve(q, settings=cfg, persist=can_persist())
     except Exception as exc:  # noqa: BLE001
