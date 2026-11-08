@@ -1,0 +1,55 @@
+{
+  "query_id": "20261103T053204_7c367513",
+  "query": "What is the fund benchmark of HDFC Large Cap Fund Direct Growth?",
+  "top_k": 4,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "collection": "mf_faq",
+  "hits": [
+    {
+      "chunk_id": "hdfc_large_cap_0038",
+      "text": "Fund benchmark\nNIFTY 100 Total Return Index",
+      "score": 0.8572,
+      "distance": 0.1427992582321167,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Fund benchmark",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0039",
+      "text": "Fund benchmark\nNIFTY Midcap 150 Total Return Index",
+      "score": 0.8545,
+      "distance": 0.14553582668304443,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Fund benchmark",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "amc_hdfc_0033",
+      "text": "ur Groww account within 3 to 4 working days.\nLet's have a closer look\nNow let us jump and check about these top\n15\nmutual fund schemes.\nHDFC Mid Cap Fund Direct Growth\nFund Performance:\nThe fund's annualized returns for the past 3 years & 5 years has been around 15.54% & 17.07%. The HDFC Mid Cap Fund comes under the Equity category of HDFC Mutual Funds.",
+      "score": 0.815,
+      "distance": 0.18499231338500977,
+      "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+      "scraped_at": "2026-11-01T16:48:08+05:30",
+      "page_id": "amc_hdfc",
+      "section": "about HDFC Mutual Fund",
+      "name": "HDFC Mutual Fund (AMC overview)"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0012",
+      "text": "Understand terms\nAnnualised returns\nAverage of the yearly returns of a mutual fund over a given period.\nAbsolute returns\nThe total return of a mutual fund over a given period.",
+      "score": 0.7923,
+      "distance": 0.20768189430236816,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Understand terms",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    }
+  ],
+  "citation_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "created_at": "2026-11-03T05:32:04+05:30"
+}

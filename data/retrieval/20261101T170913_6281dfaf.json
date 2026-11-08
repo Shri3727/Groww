@@ -1,0 +1,55 @@
+{
+  "query_id": "20261101T170913_6281dfaf",
+  "query": "Expense ratio of HDFC Large Cap Fund Direct Growth",
+  "top_k": 4,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "collection": "mf_faq",
+  "hits": [
+    {
+      "chunk_id": "hdfc_large_cap_0035",
+      "text": "About\nHDFC Large Cap Fund Direct Growth\nHDFC Large Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Rahul Baijal is the Current Fund Manager of HDFC Large Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,076 Cr and the Latest NAV as of 30 Oct 2026 is ₹1,164.95.\nThe HDFC Large Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lu",
+      "score": 0.8083,
+      "distance": 0.19168448448181152,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "About",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "amc_hdfc_0033",
+      "text": "ur Groww account within 3 to 4 working days.\nLet's have a closer look\nNow let us jump and check about these top\n15\nmutual fund schemes.\nHDFC Mid Cap Fund Direct Growth\nFund Performance:\nThe fund's annualized returns for the past 3 years & 5 years has been around 15.54% & 17.07%. The HDFC Mid Cap Fund comes under the Equity category of HDFC Mutual Funds.",
+      "score": 0.7671,
+      "distance": 0.23285388946533203,
+      "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+      "scraped_at": "2026-11-01T16:48:08+05:30",
+      "page_id": "amc_hdfc",
+      "section": "about HDFC Mutual Fund",
+      "name": "HDFC Mutual Fund (AMC overview)"
+    },
+    {
+      "chunk_id": "amc_hdfc_0044",
+      "text": "Minimum Investment Amount:\nLump sum minimum amount for HDFC NIFTY Next 50 Index Fund is ₹100 and for SIP, it is ₹100.\nMin Investment Amt\n₹100\nAUM\n₹2,620Cr\n1Y Returns\n-2.5%\nHDFC Large Cap Fund Direct Growth\nFund Performance:\nThe fund's annualized returns for the past 3 years & 5 years has been around 8.76% & 9.57%. The HDFC Large Cap Fund comes under the Equity category of HDFC Mutual Funds.",
+      "score": 0.7563,
+      "distance": 0.24366819858551025,
+      "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+      "scraped_at": "2026-11-01T16:48:08+05:30",
+      "page_id": "amc_hdfc",
+      "section": "Minimum Investment Amount:",
+      "name": "HDFC Mutual Fund (AMC overview)"
+    },
+    {
+      "chunk_id": "amc_hdfc_0034",
+      "text": "Minimum Investment Amount:\nLump sum minimum amount for HDFC Mid Cap Fund is ₹100 and for SIP, it is ₹100.\nMin Investment Amt\n₹100\nAUM\n₹1,01,856Cr\n1Y Returns\n-2.5%\nHDFC Silver ETF FoF Direct Growth\nFund Performance:\nThe HDFC Silver ETF FoF Direct-Growth comes under the Commodities category of HDFC Mutual Funds.",
+      "score": 0.7534,
+      "distance": 0.2465587854385376,
+      "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+      "scraped_at": "2026-11-01T16:48:08+05:30",
+      "page_id": "amc_hdfc",
+      "section": "Minimum Investment Amount:",
+      "name": "HDFC Mutual Fund (AMC overview)"
+    }
+  ],
+  "citation_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "created_at": "2026-11-01T17:09:13+05:30"
+}

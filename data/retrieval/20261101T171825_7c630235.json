@@ -1,0 +1,55 @@
+{
+  "query_id": "20261101T171825_7c630235",
+  "query": "Expense ratio of HDFC Large Cap Fund Direct Growth",
+  "top_k": 4,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "collection": "mf_faq",
+  "hits": [
+    {
+      "chunk_id": "hdfc_large_cap_0015",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "score": 0.8859,
+      "distance": 0.11411315202713013,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0003",
+      "text": "Expense ratio\n1.02%\nRating\n4\nReturn calculator\nMonthly SIP\nOne time\nMonthly investment\n₹5,000\nOver the past\nTotal investment\nWould've become\nHistoric returns\nReturns\n1 year\n₹60,000\n₹57,719\n-3.80\n%\n3 years\n₹1,80,000\n₹1,78,952\n-0.58\n%\n5 years\n₹3,00,000\n₹3,55,893\n+\n18.63\n%\n10 years\n₹6,00,000\n₹10,79,208\n+\n79.87\n%",
+      "score": 0.838,
+      "distance": 0.1620495319366455,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0018",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "score": 0.8355,
+      "distance": 0.16445815563201904,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0035",
+      "text": "About\nHDFC Large Cap Fund Direct Growth\nHDFC Large Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Rahul Baijal is the Current Fund Manager of HDFC Large Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,076 Cr and the Latest NAV as of 30 Oct 2026 is ₹1,164.95.\nThe HDFC Large Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lu",
+      "score": 0.8094,
+      "distance": 0.19061541557312012,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "About",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    }
+  ],
+  "citation_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "created_at": "2026-11-01T17:18:25+05:30"
+}

@@ -1,0 +1,756 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dim": 384,
+  "count": 187,
+  "built_at": "2026-11-01T17:13:23+05:30",
+  "items": [
+    {
+      "chunk_id": "amc_hdfc_0000",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0001",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0002",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0003",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0004",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0005",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0006",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0007",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0009",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0011",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0012",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0013",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0014",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0015",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0016",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0017",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0018",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0019",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0020",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0021",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0022",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0023",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0024",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0025",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0026",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0027",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0028",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0029",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0030",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0031",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0032",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0033",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0034",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0035",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0036",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0037",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0038",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0039",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0040",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0041",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0042",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0043",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0044",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0045",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0046",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0047",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0048",
+      "dim": 384
+    },
+    {
+      "chunk_id": "amc_hdfc_0049",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0000",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0003",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0004",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0005",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0006",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0007",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0008",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0009",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0010",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0011",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0013",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0014",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0016",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0017",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0018",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0019",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0023",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0024",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0025",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0026",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0027",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0028",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0029",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0030",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0031",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0032",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0033",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0034",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0035",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0036",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_elss_0037",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0000",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0003",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0004",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0005",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0006",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0007",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0008",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0009",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0010",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0011",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0012",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0013",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0014",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0016",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0017",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0019",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0020",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0021",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0022",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0024",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0027",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0028",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0029",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0030",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0031",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0032",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0033",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0034",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0035",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0036",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0037",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0038",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0039",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0040",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0041",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0042",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_flexi_cap_0043",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0000",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0003",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0004",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0005",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0006",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0007",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0008",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0009",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0010",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0012",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0013",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0015",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0016",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0017",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0018",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0020",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0021",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0022",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0025",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0026",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0027",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0028",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0029",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0030",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0031",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0032",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0033",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0034",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0035",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0036",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0037",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0038",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0039",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0040",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0041",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0000",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0003",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0004",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0005",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0006",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0007",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0008",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0009",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0010",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0011",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0012",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0013",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0015",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0016",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0018",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0019",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0020",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0021",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0023",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0026",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0027",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0028",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0029",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0030",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0031",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0032",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0033",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0034",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0035",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0036",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0037",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0038",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0039",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0040",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0041",
+      "dim": 384
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0042",
+      "dim": 384
+    }
+  ]
+}

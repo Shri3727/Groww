@@ -1,0 +1,11 @@
+{
+  "query_id": "20261103T060609_493a2ce5",
+  "query": "What is the exit load of HDFC Mid Cap Fund Direct Growth?",
+  "answer": "I could not look up that fact right now and will not invent an answer. Please try again later or open the official page: https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "citation_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "last_updated_from_sources": null,
+  "refused": true,
+  "reason": "backend_error",
+  "error": "Cannot copy out of meta tensor; no data!",
+  "hits": []
+}

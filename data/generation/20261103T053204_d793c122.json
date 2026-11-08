@@ -1,0 +1,10 @@
+{
+  "query_id": "20261103T053204_d793c122",
+  "query": "Which fund has better returns?",
+  "answer": "I do not compute or compare fund returns. Please check the official scheme page on Groww for published performance figures. Source: https://groww.in/mutual-funds/amc/hdfc-mutual-funds.",
+  "citation_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "last_updated_from_sources": null,
+  "refused": true,
+  "reason": "returns",
+  "hits": []
+}

@@ -1,0 +1,8 @@
+{
+  "collection": "mf_faq",
+  "count": 187,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "persist_dir": "/Users/shridharvengurlekar/Documents/NextLeap/chroma",
+  "dim": 384,
+  "built_at": "2026-11-01T17:13:33+05:30"
+}

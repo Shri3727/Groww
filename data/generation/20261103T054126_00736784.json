@@ -1,0 +1,56 @@
+{
+  "query_id": "20261103T054126_00736784",
+  "query": "What is the expense ratio of HDFC Large Cap Fund Direct Growth?",
+  "answer": "Expense ratio 1.02% 4 ₹5,000 Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth. Last updated from sources: 2026-11-01.",
+  "citation_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "last_updated_from_sources": "2026-11-01",
+  "refused": false,
+  "reason": null,
+  "retrieval_artifact": "/Users/shridharvengurlekar/Documents/NextLeap/data/retrieval/20261103T054126_00736784.json",
+  "hits": [
+    {
+      "chunk_id": "hdfc_large_cap_0015",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "score": 0.8785,
+      "distance": 0.12146008014678955,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0018",
+      "text": "Expense ratio\nA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "score": 0.8369,
+      "distance": 0.1631200909614563,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_large_cap_0003",
+      "text": "Expense ratio\n1.02%\nRating\n4\nReturn calculator\nMonthly SIP\nOne time\nMonthly investment\n₹5,000\nOver the past\nTotal investment\nWould've become\nHistoric returns\nReturns\n1 year\n₹60,000\n₹57,719\n-3.80\n%\n3 years\n₹1,80,000\n₹1,78,952\n-0.58\n%\n5 years\n₹3,00,000\n₹3,55,893\n+\n18.63\n%\n10 years\n₹6,00,000\n₹10,79,208\n+\n79.87\n%",
+      "score": 0.8295,
+      "distance": 0.17047417163848877,
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:10+05:30",
+      "page_id": "hdfc_large_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Large Cap Fund Direct Growth"
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_0003",
+      "text": "Expense ratio\n0.74%\nRating\n4\nReturn calculator\nMonthly SIP\nOne time\nMonthly investment\n₹5,000\nOver the past\nTotal investment\nWould've become\nHistoric returns\nReturns\n1 year\n₹60,000\n₹58,514\n-2.48\n%\n3 years\n₹1,80,000\n₹1,94,523\n+\n8.07\n%\n5 years\n₹3,00,000\n₹4,30,624\n+\n43.54\n%\n10 years\n₹6,00,000\n₹15,33,179\n+\n155.53\n%",
+      "score": 0.8054,
+      "distance": 0.1945868730545044,
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scraped_at": "2026-11-01T16:48:15+05:30",
+      "page_id": "hdfc_mid_cap",
+      "section": "Expense ratio",
+      "name": "HDFC Mid Cap Fund Direct Growth"
+    }
+  ]
+}
