@@ -15,7 +15,6 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from src.app.orchestrator import DISCLAIMER, EXAMPLE_QUESTIONS, ask
-from src.app.pulse_routes import router as pulse_router
 from src.config import load_settings
 from src.retrieve.search import retrieve
 from src.runtime import is_vercel, retrieval_backend
@@ -25,7 +24,6 @@ app = FastAPI(
     description="Facts-only RAG prototype over selected HDFC Mutual Fund pages on Groww.",
     version="0.1.0",
 )
-app.include_router(pulse_router)
 
 
 @app.on_event("startup")
@@ -219,7 +217,6 @@ def index():
 <body>
   <main>
     <h1>HDFC Mutual Fund FAQ</h1>
-    <p class="welcome"><a href="/pulse">Weekly product pulse</a></p>
     <p class="welcome">Ask factual questions about selected HDFC schemes using official Groww public pages.</p>
     <div class="banner">Facts-only. No investment advice.</div>
     <p class="disclaimer">{DISCLAIMER}</p>
