@@ -1,0 +1,35 @@
+Subject: Weekly Product Pulse + Customer Clarification — Equity brokerage and sell-side charges
+
+Weekly product pulse
+Weekly product pulse — Groww app
+Window: 30 Aug 2026 to 22 Nov 2026. Source: 3244 Google Play reviews.
+
+Summary
+Top themes: short positive sentiment (2447 of 3244), app reliability (257), and support and resolution (219). Pricing and charges is the next issue theme (189). Orders and withdrawals is fifth (132).
+
+Supporting quotes
+- "app is lagging while trading..not good for intraday for peak hours..not reliable" (GP2432, 2026-10-19)
+- "customer care support not responding as I want to delete my demat account." (GP2583, 2026-10-07)
+- "other trading app now brokerage charges Rs 10 per order Groww now Rs 20." (GP2713, 2026-09-28)
+
+Key observation
+Users who mention money usually say brokerage or charges. Account maintenance is ₹0, so the headline looks free. On an equity sell the debit can also include DP charges, GST, and statutory charges. That gap is the recurring fee confusion in this window.
+
+Actions for product
+1. On the sell confirm screen, show brokerage, DP charges, GST, and statutory charges before the user confirms.
+2. Keep "₹0 account maintenance" separate from "₹20 or 0.1% equity brokerage" on the order screen.
+3. Publish one support snippet for "why is the debit higher than ₹20?" using the fee explainer.
+
+Fee explanation (reusable support snippet)
+- Account maintenance charges on Groww are ₹0.
+- Equity brokerage is ₹20 or 0.1% of the executed order value, whichever is lower. The minimum brokerage is ₹5.
+- Brokerage is charged per executed equity order. It is not the only amount that can be debited on a trade.
+- A delivery sell also has DP (depository participant) charges: depository ₹3.50 (₹3.25 for women) plus Groww ₹16.50 when the sell value is ₹100 or more. Groww’s ₹16.50 is ₹0 when the sell value is under ₹100.
+- GST at 18% applies on brokerage, DP charges, exchange transaction charges, and the other fee lines listed on the Groww pricing page.
+- STT, stamp duty, exchange transaction charges, and SEBI turnover charges are statutory or exchange charges. The contract note is the record of the exact breakup.
+
+Last checked: 22 Nov 2026
+https://groww.in/pricing
+https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-demat-account/how-much-does-groww-charge-for-stocks-1
+
+This is a draft. It was not sent.

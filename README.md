@@ -12,6 +12,23 @@ Facts-only RAG prototype for **Groww**, covering **HDFC Mutual Fund** and four D
 
 ---
 
+## Weekly product pulse (Milestone 2)
+
+Turns the Play Store reviews in `data/reviews/groww_reviews.csv` (30 Aug 2026–22 Nov 2026) into a weekly internal note and a fee explainer.
+
+```bash
+.\.venv\Scripts\python.exe scripts\serve_pulse.py
+```
+
+Open http://127.0.0.1:8000/pulse. The same page is on the full FAQ app at `/pulse`.
+
+Approval happens on that page. The **Approve and log** button stays off until the checkbox is checked. Until then the app does not append the notes entry or write the email draft. After approval it writes:
+
+- `deliverables/pulse/notes.md`
+- `deliverables/pulse/email_draft.txt`
+
+The draft is not sent. The fee issue identified from the reviews is equity brokerage: reviewers compare Groww with a ₹10-per-order charge and treat ₹20 or 0.1% brokerage as the whole cost of a sell, while DP charges, GST, and statutory charges are separate.
+
 ## Scope
 
 - **Product:** Groww
